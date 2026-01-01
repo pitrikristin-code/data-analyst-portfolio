@@ -1,7 +1,7 @@
 ## Dataset Overview
 - Number of rows: 9994
 - Number of columns: 21
-- Time period: 2/1/2014 - 9/30/2017
+- Time period: 03/01/2014 - 30/12/2017
 - Key columns:
     - Date
     - Sales
