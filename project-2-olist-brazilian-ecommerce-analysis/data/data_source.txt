@@ -1,0 +1,9 @@
+Dataset:
+Brazilian E-Commerce Public Dataset by Olist
+
+Source:
+https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+
+Notes:
+Raw data is not included in this repository.
+Data was loaded into PostgreSQL and transformed using SQL to create an analytical table for dashboarding.
