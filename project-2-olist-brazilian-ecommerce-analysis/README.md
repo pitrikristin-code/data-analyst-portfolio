@@ -24,4 +24,4 @@ Brazilian E-Commerce Public Dataset by Olist (2016–2018)
 - Business insights on revenue, delivery performance, and customer behavior
 
 ## Dashboard
-🔗 Tableau Public Link: [paste here]
+🔗 Tableau Public Link: (https://public.tableau.com/shared/ZNZBY43MY?:display_count=n&:origin=viz_share_link)
