@@ -1,0 +1,29 @@
+-- Analytical table for profitability and discount impact analysis
+
+
+CREATE TABLE analytical_table AS 
+SELECT 
+	order_id,
+	order_date,
+	customer_id,
+	customer_name,
+	segment,
+	city,
+	state,
+	region,
+	category,
+	sub_category,
+	product_name,
+	sales,
+	quantity,
+	discount,
+	CASE 
+		WHEN discount = 0 THEN 'No Discount'
+		WHEN discount <= 0.2 THEN 'Low Discount 0-20%'
+		WHEN discount <= 0.5 THEN 'Medium Discount 20-50%'
+		ELSE 'High Discount >50%'
+	END AS discount_buckets,
+	profit,
+	100*(profit/sales) AS profit_margin,
+	ROUND(100*(profit/sales)::FLOAT)||'%' AS percentage_profit_margin
+FROM analysis_table
